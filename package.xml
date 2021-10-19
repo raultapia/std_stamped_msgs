@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>std_stamped_msgs</name>
+  <version>1.0.0</version>
+  <description>Stamped version of ROS standard messages</description>
+  <maintainer email="raultapia@us.es">Raul Tapia</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export></export>
+</package>
