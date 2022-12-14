@@ -2,5 +2,5 @@
 # documentation on all multiarrays.
 
 Header header
-MultiArrayLayout  layout        # specification of data layout
+std_msgs/MultiArrayLayout  layout        # specification of data layout
 byte[]            data          # array of data

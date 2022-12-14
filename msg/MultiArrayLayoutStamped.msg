@@ -3,7 +3,7 @@
 # to inner most.
 
 Header header
-MultiArrayDimension[] dim # Array of dimension properties
+std_msgs/MultiArrayDimension[] dim # Array of dimension properties
 uint32 data_offset        # padding elements at front of data
 
 # Accessors should ALWAYS be written in terms of dimension stride
